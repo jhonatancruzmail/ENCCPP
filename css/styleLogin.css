@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
     outline: none;
+    overflow: hidden;
     font-family: 'Roboto'
+
 }
 
 body {
@@ -43,6 +45,8 @@ nav .opciones p {
 
 nav div p:hover {
     background: whitesmoke;
+    transition: 0.3s;
+    transform: scale(1.05);
 }
 
 .Pcontainer {
@@ -97,6 +101,13 @@ nav div p:hover {
     width: 100%;
 }
 
+.usuario p,
+.contraseña p {
+    margin: 5px 0 0px 0;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
 .usuario input,
 .contraseña input {
     width: 100%;
@@ -119,13 +130,20 @@ nav div p:hover {
 
 .usuario input:focus,
 .contraseña input:focus {
-    border-bottom: 1px solid rgb(0, 161, 100);
+    border-bottom: 2px solid rgb(0, 161, 100);
     display: initial;
 }
 
 .passwordreset {
     margin: 15px 0;
     font-size: 0.75rem;
+    transition: .2s;
+
+}
+
+.passwordreset:hover {
+    transform: scale(1.03);
+    transition: .2s;
 }
 
 
@@ -144,6 +162,7 @@ nav div p:hover {
 
 .submit:hover {
     background: rgb(1, 165, 102);
+    transform: scale(1.04);
     transition: .3s;
 }
 
