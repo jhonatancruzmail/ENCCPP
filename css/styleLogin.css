@@ -23,8 +23,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0px 1px 2px rgba(0, 0, 0, 0.103);
-    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0px 1px 1px rgba(0, 0, 0, 0.247);
 
 }
 
@@ -82,6 +81,12 @@ nav div p:hover {
     flex-direction: column;
     border-radius: 0 17px 0 17px;
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.26), 3px -3px 10px rgba(0, 0, 0, 0.137);
+    transition: .3s;
+}
+
+.subcontainerDere:hover {
+    transform: scale(1.04);
+    transition: .2s;
 }
 
 .Tbienvenido {
